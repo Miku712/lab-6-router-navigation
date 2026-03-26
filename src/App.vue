@@ -1,6 +1,11 @@
+<script setup>
+import NavBar from './components/NavBar.vue'
+</script>
+
 <template>
   <div id="app">
     <h1>My App</h1>
+    <NavBar />
     <router-view />
   </div>
 </template>
